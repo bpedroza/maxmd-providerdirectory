@@ -1,0 +1,34 @@
+{
+    "name": "endeavors/maxmd-providerdirectory",
+    "description": "A MaxMD php api client to query the provider directory",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bryan Pedroza",
+            "email": "bryanp@healthendeavors.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Endeavors\\MaxMD\\ProviderDirectory\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Endeavors\\MaxMD\\ProviderDirectory\\Tests\\": "tests/"
+        }
+    },
+    "require" : {
+        "endeavors/maxmd-support": "dev-develop",
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.2.*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.1.x-dev"
+        }
+    }
+}
